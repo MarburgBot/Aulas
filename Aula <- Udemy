@@ -1,0 +1,27 @@
+import 'package:flutter/material.dart';
+
+void main() { 
+  runApp(MaterialApp( 
+    home: Scaffold(
+      appBar: AppBar(
+        title: Text('Primeiro App'),
+      ),
+      body: Container(
+        color: Colors.amber,
+        height: 80.0,
+        width: 180.0,
+        child: Center(
+          child: Column(
+            children: [
+              Icon(Icons.people, color: Colors.cyan, size:60.0),
+              Text('Home', style: TextStyle(color: Colors.cyan, fontSize:17.0, fontStyle:FontStyle.italic),),
+            ]
+          ),
+        ),
+      ),
+      
+      
+    ),
+  ));
+  
+}
